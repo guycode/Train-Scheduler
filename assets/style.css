@@ -1,0 +1,23 @@
+
+
+.jumbotron {
+    color: #fff;
+    background-position-y: 10%;
+    color: #fff;
+    background-color: #0498fcb4;
+}
+
+div.panel-body {
+    color: rgb(110, 110, 110);
+}
+.btn-primary {
+    background-color: #0498fcb4;
+    border-color: #fff;
+    font-weight: bold;
+}
+
+/* body {
+    background-image: url(https://images6.alphacoders.com/725/725086.jpg);
+    width: 1900px;
+    min-height: 1200px;
+} */

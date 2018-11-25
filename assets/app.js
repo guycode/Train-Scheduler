@@ -33,7 +33,6 @@ $(document).ready(function () {
     });
   
   
-    // Firebase watcher + initial loader HINT: This code behaves similarly to .on("value")
     database.ref().on("child_added", function (childSnapshot) {
   
       var newTrain = childSnapshot.val().trainName;
@@ -47,7 +46,7 @@ $(document).ready(function () {
       // Current Time
       var currentTime = moment();
   
-      // Difference between the times
+      // Difference
       var diffTime = moment().diff(moment(startTimeConverted), "minutes");
   
       // Time apart (remainder)
@@ -77,5 +76,5 @@ $(document).ready(function () {
         console.log("Errors handled: " + errorObject.code);
       });
   
-  }); //end document ready
+  });
   
